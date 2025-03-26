@@ -12,7 +12,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 echo 'Executing Python script'
-                bat 'python app.py'
+                sh 'python app.py'
             }
         }
     }
