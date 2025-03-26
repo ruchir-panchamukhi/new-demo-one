@@ -9,12 +9,12 @@ pipeline {
             }
         }
 
-        stage('Setup Python') {
-            steps {
-                echo "Setting up Python environment"
-                sh 'python3 --version'
-            }
-        }
+        // stage('Setup Python') {
+        //     steps {
+        //         echo "Setting up Python environment"
+        //         sh 'python3 --version'
+        //     }
+        // }
 
         stage('Run Python Script') {
             steps {
